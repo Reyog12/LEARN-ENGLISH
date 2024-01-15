@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Reviews</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f6f7fb; /* Lavender Blue */
+            color: #333; /* Dark Gray */
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50; /* Midnight Blue */
+        }
+
+        .testimonial {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 2px solid #3498db; /* Dodger Blue */
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ecf0f1; /* Clouds */
+        }
+
+        .testimonial-content {
+            flex: 1;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            margin: 10px 0;
+        }
+
+        .testimonial-author {
+            font-weight: bold;
+            text-align: right;
+            color: #3498db; /* Dodger Blue */
+        }
+
+        .testimonial-photo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        /* 
+        nav bar 
+        */
+        *{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+}
+main{
+    margin: 0px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    padding:10px 0 0 0px;
+    box-shadow: 0 1px 10px -1px rgb(0 0 0 / 20%);
+}
+.logo{
+    position: absolute;  
+    height: 50px;
+    width: 50px;
+    left: 50px;
+    margin-top: 0px;
+}
+.text1{
+    font-size: 25px;
+    color: black;
+    width: 100px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    position: absolute;
+    left: 75px;
+}
+/* 
+
+.text-unselected{
+    color: white;
+} */
+    </style>
+</head>
+<body>
+ <!-- ----------------------nav bar------------------------ -->
+ <ul class="nav nav-tabs text-bg-dark nav-fill" >
+    <li class="nav-item ">
+        <a class="nav-link text-unselected" aria-current="page" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-unselected" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">CLASSES</a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="class6.html">CLASS 6</a></li>
+              <li><a class="dropdown-item" href="class7.html">CLASS 7</a></li>
+              <li><a class="dropdown-item" href="class8.html">CLASS 8</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="class9.html">CLASS 9</a></li>
+          </ul>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link active text-unselected" href="#">ABOUT US</a>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link text-unselected" href="grammar.html">GRAMMAR</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-unselected" href="quiz.html">QUIZ</a>
+        </li>
+      <li class="nav-item ">
+          <a class="nav-link text-unselected" href="contact.html">CONTACT US</a>
+      </li>
+      
+      <li class="nav-item ">
+        <a class="nav-link text-unselected active" href="reviews.html">REVIEWS</a>
+    </li>
+  </ul>
+  <!-- --------------------------/nav bar/----------------------- -->
+    <h1>Teacher Reviews</h1>
+
+    <!-- Testimonial 1 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"The English learning platform is fantastic! It greatly aids our students' language skills."</p>
+            <p class="testimonial-author">- Mrs. Bhawani Joshi Kayastha</p>
+        </div>
+        <img src="bj.jpg" alt="Mrs. Bhawani Joshi Kayastha" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"I appreciate the effort put into creating such a useful resource for English education."</p>
+            <p class="testimonial-author">- Mr. Arun Kumar Sharma</p>
+        </div>
+        <img src="aks.jpg" alt="Mr. Arun Kumar Sharma" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"The grammar lessons are engaging and beneficial. Well done!"</p>
+            <p class="testimonial-author">- Mrs. Muna Pantha</p>
+        </div>
+        <img src="mp.jpg" alt="Mrs. Muna Pantha" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 4 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"The video content adds a dynamic touch to the learning experience. Impressive work!"</p>
+            <p class="testimonial-author">- Mr. Deepak Subedi</p>
+        </div>
+        <img src="ds.jpg" alt="Mr. Deepak Subedi" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 5 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"I am thrilled to see our students actively engaging with the English courses provided."</p>
+            <p class="testimonial-author">- Mrs. Soniya Ghale</p>
+        </div>
+        <img src="photo.jpg" alt="Mrs. Soniya Ghale" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 6 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"The website is user-friendly, making it easy for students to navigate and learn."</p>
+            <p class="testimonial-author">- Mr. Narayn Parssad Chapagain</p>
+        </div>
+        <img src="photo.jpg" alt="Mr. Narayn Parssad Chapagain" class="testimonial-photo">
+    </div>
+
+    <!-- Testimonial 7 -->
+    <div class="testimonial">
+        <div class="testimonial-content">
+            <p>"An excellent initiative for enhancing English language skills. Kudos!"</p>
+            <p class="testimonial-author">- Mrs. Bhawana Poudel</p>
+        </div>
+        <img src="photo.jpg" alt="Mrs. Bhawana Poudel" class="testimonial-photo">
+    </div>
+
+</body>
+</html>
+

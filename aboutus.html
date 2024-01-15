@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>LEARN ENGLISH </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            font-family:'Lobster'
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            
+            text-align: justify;
+
+        }
+        .team-member-box1{
+            width: 50%;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            margin:auto;
+        }
+        .team-member-box{
+            width:80%;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-around;
+            margin:auto;
+        }
+        .team-member {
+            display: flex;
+            flex-basis: 50%;
+            margin: auto;
+            position: relative;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-member img {
+            max-width: 100px;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .team-member-info {
+            margin-left: 20px;
+        }
+        .content{
+            position: relative;
+            margin-top: 200px;
+            width: 100%;
+        }
+        /* 
+        nav bar
+         */
+         *{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0px;
+        }
+        
+        .logo{
+            position: absolute;  
+            height: 50px;
+            width: 50px;
+            left: 50px;
+            margin-top: 0px;
+        }
+        .text1{
+            font-size: 25px;
+            color: black;
+            width: 100px;
+            margin-top: 0px;
+            padding-bottom: 10px;
+            position: absolute;
+            left: 75px;
+        }
+       .text-unselected{
+        color: white;
+       }
+       @media screen and (max-width:770px){
+        .team-member{
+            flex-basis: 100%;
+        }
+    
+       }
+
+       body {
+            margin: 0;
+            padding: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+
+   <!-- ----------------------nav bar------------------------ -->
+ <ul class="nav nav-tabs text-bg-dark nav-fill" >
+    <li class="nav-item ">
+        <a class="nav-link text-unselected" aria-current="page" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-unselected" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">CLASSES</a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="class6.html">CLASS 6</a></li>
+              <li><a class="dropdown-item" href="class7.html">CLASS 7</a></li>
+              <li><a class="dropdown-item" href="class8.html">CLASS 8</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="class9.html">CLASS 9</a></li>
+          </ul>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link active text-unselected" href="aboutus.html">ABOUT US</a>
+      </li>
+      <li class="nav-item ">
+          <a class="nav-link text-unselected" href="grammar.html">GRAMMAR</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link text-unselected" href="quiz.html">QUIZ</a>
+        </li>
+      <li class="nav-item ">
+          <a class="nav-link text-unselected" href="contact.html">CONTACT US</a>
+      </li>
+      
+      <li class="nav-item ">
+        <a class="nav-link text-unselected active" href="reviews.html">REVIEWS</a>
+    </li>
+  </ul>
+  <!-- --------------------------/nav bar/----------------------- -->
+    <header>
+   
+    <h1>About Us - The GitHub Warriors</h1>
+    </header>
+    <div class="container">
+        <div class="h1">
+           <h1 >Our Team</h1>
+       </div>
+        <div class="team-member team-member-box1" >
+            <img src="rp.jpg" alt="Team Member 1" width="`100px" height="100px">
+            <div class="team-member-info">
+                <h3>Reyog paneru</h3>
+                <p>Team leader </p>
+               
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="team-member-box">
+            <div class="team-member">
+                <img src="sk.jpg" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5>sakchyam karki</h5>
+                    <p>member </p>
+                 
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="ng.jpg" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5>neeraj gurung </h5>
+                    <p>member</p>
+                  
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="Sainik_Awasiya_Mahavidylaya-removebg-preview.png" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5> dipson pandey </h5>
+                    <p>Member </p>
+                  
+                </div>
+            </div>
+            <br><br>
+            <div class="team-member">
+                <img src="ps.jpg" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5>prassanna shahi  </h5>
+                    <p>member</p>
+                    
+                </div>
+            </div>
+            <br> 
+            <br>
+            <div class="team-member">
+                <img src="Sainik_Awasiya_Mahavidylaya-removebg-preview.png" alt="Team Member 1" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5> prabhu ram basnet </h5>
+                    <p>Member </p>
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="team-member">
+                <img src="Sainik_Awasiya_Mahavidylaya-removebg-preview.png" alt="Team Member 2" width="`100px" height="100px">
+                <div class="team-member-info">
+                    <h5>aardsha baral </h5>
+                    <p>member</p>
+                   
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="content">
+            <h2>Who We Are</h2>
+            <p>We are a group of young minds on a mission. The GitHub Warriors started as a project fueled by our shared enthusiasm for computer science and a desire to contribute positively to the world of education. Comprising bright and motivated individuals, our team works tirelessly to create a platform that brings a fresh perspective to the world of English learning.</p>
+
+            <h2>Our Vision</h2>
+            <p>At The GitHub Warriors, we envision a world where every student, regardless of their background, can access high-quality English learning resources. We believe that a strong foundation in English is essential, not just for academic success but also for personal growth and empowerment.</p>
+
+            <h2>What We Offer</h2>
+            <p>Our website is your one-stop destination for English learning resources tailored to students in grades six to nine. We offer a comprehensive English course that covers reading, writing, speaking, and listening skills. Our course materials are designed to be engaging, interactive, and easy to understand.</p>
+
+            <h2>Grammar Mastery</h2>
+            <p>Understanding the nuances of English grammar is key to becoming a proficient English speaker and writer. We provide a wide range of grammar-related exercises and resources that will help you master the intricacies of the English language.</p>
+
+            <h2>Why Choose Us</h2>
+            <ul>
+                <li><strong>Engaging Content:</strong> We know that learning is most effective when it's enjoyable. That's why our content is designed to be fun and interactive.</li>
+                <li><strong>Accessible to All:</strong> We are committed to making quality education accessible to everyone. Our resources are available for free, ensuring that no one is left behind.</li>
+                <li><strong>Continuous Improvement:</strong> As students ourselves, we understand the evolving needs of our peers. We're constantly improving and expanding our offerings to meet those needs.</li>
+                <li><strong>Community and Support:</strong> We're more than just a website. We're a community of learners, and we're here to support you on your English learning journey.</li>
+            </ul>
+
+            <p>Join us on this exciting adventure of learning and self-improvement. Whether you're a student looking to ace your English exams or simply someone eager to enhance your language skills, The GitHub Warriors is here to guide you every step of the way.</p>
+            
+            <p>Thank you for choosing us as your English learning companions.</p>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- Footer section -->
+    <footer>
+        &copy; 2024 LEARN ENGLISH All rights reserved.
+    </footer>
+</body>
+</html>
